@@ -55,6 +55,7 @@ var ResourceCache: [String: [Resource]] = [:];
 
 class SWRMResource: Resource {
     
+    /// exposing the resource type so we can get the fields
     var type: Resource.Type {
         get {
             assertionFailure("didn't set the resource's type");
@@ -68,10 +69,10 @@ class SWRMResource: Resource {
     public required init(coder: NSCoder) {
         super.init(coder: coder);
         let mirror = Mirror(reflecting: self);
-        for child in mirror.children {
+        for child in mirror.children { //mirror the object so we can loop through the object'ss properties and get the saved values
             if let name = child.label {
-                let value = coder.decodeObject(forKey: name);
-                setValue(value, forKeyPath: name);
+                let value = coder.decodeObject(forKey: name); //get the encoded property value
+                setValue(value, forKeyPath: name); //set the property
             }
         }
     }
@@ -79,7 +80,7 @@ class SWRMResource: Resource {
     override open func encode(with coder: NSCoder) {
         super.encode(with: coder);
         for field in self.type.fields {
-            coder.encode(value(forKey: field.name) as! Any, forKey: field.name)
+            coder.encode(value(forKey: field.name) as Any, forKey: field.name)
         }
     }
 
