@@ -1,0 +1,6 @@
+framework module Pods_OfflineSpineTestTests {
+  umbrella header "Pods-OfflineSpineTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

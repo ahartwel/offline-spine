@@ -14,6 +14,11 @@
 		2C60F8BC1E2D7B25005BACBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C60F8BA1E2D7B25005BACBF /* LaunchScreen.storyboard */; };
 		2C60F8C71E2D7B26005BACBF /* OfflineSpineTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60F8C61E2D7B26005BACBF /* OfflineSpineTestTests.swift */; };
 		2C60F8D21E2D7B26005BACBF /* OfflineSpineTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60F8D11E2D7B26005BACBF /* OfflineSpineTestUITests.swift */; };
+		2C60F8E01E2D7B6F005BACBF /* SRWMResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60F8DF1E2D7B6F005BACBF /* SRWMResource.swift */; };
+		2C60F8E11E2D7B6F005BACBF /* SRWMResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60F8DF1E2D7B6F005BACBF /* SRWMResource.swift */; };
+		6D5FF4E3662845B4AF5886B3 /* Pods_OfflineSpineTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195CE7C62BDD8D0F50C8A5DA /* Pods_OfflineSpineTestTests.framework */; };
+		A6477394AC7FF3B2ABE11C26 /* Pods_OfflineSpineTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A0A371453547063CD66A2C /* Pods_OfflineSpineTestUITests.framework */; };
+		FD5D7B096C12B6E001503590 /* Pods_OfflineSpineTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5B0DBEFB5B3B2B17C56B1C /* Pods_OfflineSpineTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0EA7AF8E18B4B8EA50EF08 /* Pods-OfflineSpineTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineSpineTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineSpineTestTests/Pods-OfflineSpineTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		195CE7C62BDD8D0F50C8A5DA /* Pods_OfflineSpineTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfflineSpineTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A79098D530337DB891397A2 /* Pods-OfflineSpineTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineSpineTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineSpineTest/Pods-OfflineSpineTest.release.xcconfig"; sourceTree = "<group>"; };
+		21D1730BC89864F3933BB3CA /* Pods-OfflineSpineTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineSpineTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineSpineTestUITests/Pods-OfflineSpineTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25A0A371453547063CD66A2C /* Pods_OfflineSpineTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfflineSpineTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C60F8AE1E2D7B25005BACBF /* OfflineSpineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineSpineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C60F8B11E2D7B25005BACBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C60F8B31E2D7B25005BACBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,11 @@
 		2C60F8CD1E2D7B26005BACBF /* OfflineSpineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfflineSpineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C60F8D11E2D7B26005BACBF /* OfflineSpineTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineSpineTestUITests.swift; sourceTree = "<group>"; };
 		2C60F8D31E2D7B26005BACBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C60F8DF1E2D7B6F005BACBF /* SRWMResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRWMResource.swift; sourceTree = "<group>"; };
+		BC5B0DBEFB5B3B2B17C56B1C /* Pods_OfflineSpineTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfflineSpineTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E492B37E57E33DCD062EB7FC /* Pods-OfflineSpineTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineSpineTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineSpineTestTests/Pods-OfflineSpineTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7B5A76A3BE79A9DCAFF09A7 /* Pods-OfflineSpineTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineSpineTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineSpineTestUITests/Pods-OfflineSpineTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F96A77C2712D6606EFECDBEE /* Pods-OfflineSpineTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineSpineTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineSpineTest/Pods-OfflineSpineTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5D7B096C12B6E001503590 /* Pods_OfflineSpineTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D5FF4E3662845B4AF5886B3 /* Pods_OfflineSpineTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6477394AC7FF3B2ABE11C26 /* Pods_OfflineSpineTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,8 @@
 				2C60F8C51E2D7B26005BACBF /* OfflineSpineTestTests */,
 				2C60F8D01E2D7B26005BACBF /* OfflineSpineTestUITests */,
 				2C60F8AF1E2D7B25005BACBF /* Products */,
+				CD6A5C9A6FCD7930EC81FF5E /* Pods */,
+				EE7725DCC458DAA323D4FD02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +123,7 @@
 				2C60F8B81E2D7B25005BACBF /* Assets.xcassets */,
 				2C60F8BA1E2D7B25005BACBF /* LaunchScreen.storyboard */,
 				2C60F8BD1E2D7B25005BACBF /* Info.plist */,
+				2C60F8DF1E2D7B6F005BACBF /* SRWMResource.swift */,
 			);
 			path = OfflineSpineTest;
 			sourceTree = "<group>";
@@ -125,6 +146,29 @@
 			path = OfflineSpineTestUITests;
 			sourceTree = "<group>";
 		};
+		CD6A5C9A6FCD7930EC81FF5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F96A77C2712D6606EFECDBEE /* Pods-OfflineSpineTest.debug.xcconfig */,
+				1A79098D530337DB891397A2 /* Pods-OfflineSpineTest.release.xcconfig */,
+				0E0EA7AF8E18B4B8EA50EF08 /* Pods-OfflineSpineTestTests.debug.xcconfig */,
+				E492B37E57E33DCD062EB7FC /* Pods-OfflineSpineTestTests.release.xcconfig */,
+				21D1730BC89864F3933BB3CA /* Pods-OfflineSpineTestUITests.debug.xcconfig */,
+				E7B5A76A3BE79A9DCAFF09A7 /* Pods-OfflineSpineTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE7725DCC458DAA323D4FD02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC5B0DBEFB5B3B2B17C56B1C /* Pods_OfflineSpineTest.framework */,
+				195CE7C62BDD8D0F50C8A5DA /* Pods_OfflineSpineTestTests.framework */,
+				25A0A371453547063CD66A2C /* Pods_OfflineSpineTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C60F8D61E2D7B26005BACBF /* Build configuration list for PBXNativeTarget "OfflineSpineTest" */;
 			buildPhases = (
+				8F241F6A03DF0C116D016B74 /* [CP] Check Pods Manifest.lock */,
 				2C60F8AA1E2D7B25005BACBF /* Sources */,
 				2C60F8AB1E2D7B25005BACBF /* Frameworks */,
 				2C60F8AC1E2D7B25005BACBF /* Resources */,
+				E2903529A52945246DCC1A8A /* [CP] Embed Pods Frameworks */,
+				9C6D33AC8F785E96C25ED170 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C60F8D91E2D7B26005BACBF /* Build configuration list for PBXNativeTarget "OfflineSpineTestTests" */;
 			buildPhases = (
+				0138DF32F536CF52CAD7ED85 /* [CP] Check Pods Manifest.lock */,
 				2C60F8BE1E2D7B26005BACBF /* Sources */,
 				2C60F8BF1E2D7B26005BACBF /* Frameworks */,
 				2C60F8C01E2D7B26005BACBF /* Resources */,
+				0F1C603F9EF0FC0F52BC6686 /* [CP] Embed Pods Frameworks */,
+				AEB8368E4C2B4AF7DB8C7D5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C60F8DC1E2D7B26005BACBF /* Build configuration list for PBXNativeTarget "OfflineSpineTestUITests" */;
 			buildPhases = (
+				B35122F08DA1FFCB39FE3324 /* [CP] Check Pods Manifest.lock */,
 				2C60F8C91E2D7B26005BACBF /* Sources */,
 				2C60F8CA1E2D7B26005BACBF /* Frameworks */,
 				2C60F8CB1E2D7B26005BACBF /* Resources */,
+				D87E4BF43088D0DAD7925C2A /* [CP] Embed Pods Frameworks */,
+				F3667E7BE62721E1AF6AD134 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +310,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0138DF32F536CF52CAD7ED85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0F1C603F9EF0FC0F52BC6686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OfflineSpineTestTests/Pods-OfflineSpineTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F241F6A03DF0C116D016B74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6D33AC8F785E96C25ED170 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OfflineSpineTest/Pods-OfflineSpineTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEB8368E4C2B4AF7DB8C7D5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OfflineSpineTestTests/Pods-OfflineSpineTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35122F08DA1FFCB39FE3324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D87E4BF43088D0DAD7925C2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OfflineSpineTestUITests/Pods-OfflineSpineTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2903529A52945246DCC1A8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OfflineSpineTest/Pods-OfflineSpineTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3667E7BE62721E1AF6AD134 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OfflineSpineTestUITests/Pods-OfflineSpineTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C60F8AA1E2D7B25005BACBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2C60F8B41E2D7B25005BACBF /* ViewController.swift in Sources */,
+				2C60F8E01E2D7B6F005BACBF /* SRWMResource.swift in Sources */,
 				2C60F8B21E2D7B25005BACBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C60F8E11E2D7B6F005BACBF /* SRWMResource.swift in Sources */,
 				2C60F8C71E2D7B26005BACBF /* OfflineSpineTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +606,7 @@
 		};
 		2C60F8D71E2D7B26005BACBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96A77C2712D6606EFECDBEE /* Pods-OfflineSpineTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NFYQ3P3JKX;
@@ -426,6 +620,7 @@
 		};
 		2C60F8D81E2D7B26005BACBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A79098D530337DB891397A2 /* Pods-OfflineSpineTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NFYQ3P3JKX;
@@ -439,6 +634,7 @@
 		};
 		2C60F8DA1E2D7B26005BACBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0EA7AF8E18B4B8EA50EF08 /* Pods-OfflineSpineTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +650,7 @@
 		};
 		2C60F8DB1E2D7B26005BACBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E492B37E57E33DCD062EB7FC /* Pods-OfflineSpineTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +666,7 @@
 		};
 		2C60F8DD1E2D7B26005BACBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D1730BC89864F3933BB3CA /* Pods-OfflineSpineTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NFYQ3P3JKX;
@@ -483,6 +681,7 @@
 		};
 		2C60F8DE1E2D7B26005BACBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B5A76A3BE79A9DCAFF09A7 /* Pods-OfflineSpineTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NFYQ3P3JKX;
@@ -514,6 +713,7 @@
 				2C60F8D81E2D7B26005BACBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C60F8D91E2D7B26005BACBF /* Build configuration list for PBXNativeTarget "OfflineSpineTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +722,7 @@
 				2C60F8DB1E2D7B26005BACBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C60F8DC1E2D7B26005BACBF /* Build configuration list for PBXNativeTarget "OfflineSpineTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +731,7 @@
 				2C60F8DE1E2D7B26005BACBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

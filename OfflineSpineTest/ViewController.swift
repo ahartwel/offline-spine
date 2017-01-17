@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let object = TestObject();
+        object.title = "test";
+        object.desc = "testing 123";
+        object.id = "1";
+        //object.saveToCache();
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

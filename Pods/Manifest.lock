@@ -1,0 +1,33 @@
+PODS:
+  - BrightFutures (5.1.0):
+    - Result (~> 3.0)
+  - Dollar (6.1.0)
+  - Result (3.1.0)
+  - Spine (0.3):
+    - BrightFutures (~> 5.0)
+    - SwiftyJSON (~> 3.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Dollar
+  - Spine (from `https://github.com/wvteijlingen/Spine.git`)
+
+EXTERNAL SOURCES:
+  Spine:
+    :git: https://github.com/wvteijlingen/Spine.git
+
+CHECKOUT OPTIONS:
+  Spine:
+    :commit: c602aba1f40133f20518d1c03c45bd52abdc3fff
+    :git: https://github.com/wvteijlingen/Spine.git
+
+SPEC CHECKSUMS:
+  BrightFutures: 62aafb1a63520eda91c9286bf4be33e58e043938
+  Dollar: 0a9883680f2c1104adf0d19b827c3be71d3e3121
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  Spine: 3a456d79af4371a5875518f5144c47e287b15ecb
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: f1445064b8498d57726c5730cfc55a8ad50de193
+
+COCOAPODS: 1.1.1
